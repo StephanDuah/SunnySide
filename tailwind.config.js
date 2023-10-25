@@ -1,18 +1,27 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      barlow: "https://fonts.google.com/specimen/Barlow",
+      franuces: "https://fonts.google.com/specimen/Fraunces",
+    },
     extend: {
+      colors: {
+        softRed: "hsl(7, 99%, 70%)",
+        eggYellow: "hsl(51, 100%, 49%)",
+        footerBg: "hsl(168, 34%, 41%)",
+        footerText: "hsl(167, 40%, 24%)",
+        photoText: "hsl(198, 62%, 26%)",
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        hero: "/public/images/desktop/hero.jpg",
       },
     },
   },
   plugins: [],
-}
+};
