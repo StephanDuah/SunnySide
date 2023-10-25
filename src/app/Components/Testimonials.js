@@ -5,7 +5,7 @@ const Testimonials = () => {
   return (
     <div className="p-[2em]">
       <h1 className="text-center text-2xl text-gray-400 my-[2em]">
-        Client's Testimonials
+        Client&aposs Testimonials
       </h1>
       <div className="flex p-11 flex-col md:flex-row items-center justify-center gap-8">
         {" "}
@@ -37,8 +37,8 @@ const Testimonials = () => {
             />
           </div>
           <p className="paragraph">
-            Sunnyside's enthusiasm coupled with their keen interest in our
-            brand's success made it a staisfying and enjoyable experience.
+            Sunnyside&aposs enthusiasm coupled with their keen interest in our
+            brand&aposs success made it a staisfying and enjoyable experience.
           </p>
           <div className="my-[4rem]">
             <h1 className="font-bold text-lg ">Thomas S.</h1>

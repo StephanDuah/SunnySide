@@ -67,8 +67,8 @@ const GridSection = () => {
 
         <p className="leading-[1.8rem] text-gray-700">
           Using a collaborative formula of designer, researchers, photographers,
-          videographers and copywriters, we'll build and extend your brand in
-          digital places.
+          videographers and copywriters, we&aposll build and extend your brand
+          in digital places.
         </p>
 
         <div className="mt-11 w-[33%] text-lg font-bold cursor-pointer hover:border-b-4 hover:border-softRed">
